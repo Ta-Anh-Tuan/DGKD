@@ -15,6 +15,6 @@ public class Bai1 {
             }
             n /= b;
         }
-        System.out.println("So vua nhap o he co so B la: " + s);
+        System.out.print("So vua nhap o he co so B la: " + s);
     }
 }
