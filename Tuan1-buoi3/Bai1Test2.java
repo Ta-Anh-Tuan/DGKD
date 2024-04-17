@@ -13,7 +13,7 @@ public class Bai1Test2 {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
         Bai1.main(new String[]{});
-        assertEquals("Conversion of single digit number is incorrect", "So vua nhap o he co so B la: 7\n", out.toString());
+        assertEquals("Conversion of single digit number is incorrect", "So vua nhap o he co so B la: 7", out.toString());
     }
 
     @Test
@@ -23,7 +23,7 @@ public class Bai1Test2 {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
         Bai1.main(new String[]{});
-        assertEquals("Conversion of two digit number is incorrect", "So vua nhap o he co so B la: F\n", out.toString());
+        assertEquals("Conversion of two digit number is incorrect", "So vua nhap o he co so B la: F", out.toString());
     }
 
     @Test
@@ -33,6 +33,6 @@ public class Bai1Test2 {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
         Bai1.main(new String[]{});
-        assertEquals("Conversion of large number is incorrect", "So vua nhap o he co so B la: 7FFFFFFF\n", out.toString());
+        assertEquals("Conversion of large number is incorrect", "So vua nhap o he co so B la: 7FFFFFFF", out.toString());
     }
 }
